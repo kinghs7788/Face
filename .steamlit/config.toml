@@ -1,0 +1,11 @@
+# [theme]에 바로 색을 지정하면 라이트 전용 커스텀 테마가 되어 다크 모드가 꺼진다.
+# light/dark를 각각 지정해야 사용자 시스템 설정에 따라 자동 전환된다.
+[theme.light]
+primaryColor = "#7C3AED"
+
+[theme.dark]
+primaryColor = "#A78BFA"
+
+[server]
+# 업로드 위젯 안내 문구("10MB per file")와 실제 제한을 PRD F-03(10MB)에 맞춘다.
+maxUploadSize = 10
