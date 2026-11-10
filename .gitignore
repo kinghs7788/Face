@@ -1,0 +1,11 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+venv/
+.playwright-mcp/
+
+# 테스트 이미지: 실제 얼굴 사진(개인정보)과 큰 파일은 올리지 않는다. tests/make_fixtures.py로 다시 만든다.
+tests/fixtures/
+tests/screenshots/
